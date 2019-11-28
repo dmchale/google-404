@@ -1,9 +1,9 @@
-=== Google 404  ===
+=== 404 Widget for Google  ===
 Contributors: dmchale
 Tags: google, 404, error
-Requires at least: 2.5
-Tested up to: 4.2.1
-Stable tag: 2.0
+Requires at least: 4.4
+Tested up to: 5.3
+Stable tag: 2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,9 +50,9 @@ You should first set up a [Google webmaster account](http://www.google.com/webma
 1. Download the archive file and uncompress it.
 2. Put the "google-404" folder in "wp-content/plugins"
 3. Enable in WordPress by visiting the "Plugins" menu and activating it.
-4. Add the following code to your 404.php template.
+4. Add the `google404()` function call to your 404.php template.
 
-`<?php if ( function_exists( 'google404' ) ) google404(); ?>`
+`if ( function_exists( 'google404' ) ) { google404(); }`
 
 You could also add this code to your theme's index.php, single.php, image.php, archive.php and search.php below the HTML that is displayed if no posts are present (where you insert this may vary from theme to theme).
 
@@ -67,6 +67,11 @@ Currently no FAQs.
 No Screenshots yet.
 
 == Changelog ==
+
+= 2.1 =
+* Changing plugin name to avoid [trademark violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#17-plugins-must-respect-trademarks-copyrights-and-project-names)
+* General code QoL updates
+* Added minimum PHP & WP requirements (5.3 & 4.4 respectively). CAUTION: Both of these will be updated in a future release
 
 = 2.0 =
 * Initial release after adoption.
