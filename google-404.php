@@ -4,11 +4,14 @@
  * Plugin URI: https://www.binarytemplar.com/google-404
  * Description: Adds a Google 404 widget to your 'page not found' template which you can customize.
  * Version: 2.1
+ * Requires at least: 4.4
+ * Requires PHP: 5.3
  * Author: Dave McHale
  * Author URI: https://www.binarytemplar.com/
+ * License: GPL3
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain: google-404
  * Domain Path: /languages
- * License: GPL2+
 */
 
 // If this file is called directly, abort.
@@ -29,8 +32,8 @@ require_once( dirname( __FILE__ ) . '/classes/requirements-check.php' );
 
 $google404_requirements_check = new Google_404_Requirements_Check( array(
 	'title' => 'Custom 404 for Google',
-	'php'   => '5.3',
 	'wp'    => '4.4',
+	'php'   => '5.3',
 	'file'  => __FILE__,
 ) );
 

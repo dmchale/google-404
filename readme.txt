@@ -71,7 +71,7 @@ No Screenshots yet.
 = 2.1 =
 * Changing plugin name to avoid [trademark violation](https://developer.wordpress.org/plugins/wordpress-org/detailed-plugin-guidelines/#17-plugins-must-respect-trademarks-copyrights-and-project-names)
 * General code QoL updates
-* Added minimum PHP & WP requirements (5.3 & 4.4 respectively). CAUTION: Both of these will be updated in a future release
+* Added minimum PHP & WP requirements (5.3 & 4.4 respectively). CAUTION: Both of these will be updated in a future release, likely to 5.6 and 4.9
 
 = 2.0 =
 * Initial release after adoption.
